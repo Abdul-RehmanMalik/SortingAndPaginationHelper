@@ -4,7 +4,29 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageId>Tekulse.Util.SortingAndPaginationHelper</PackageId>
+    <Title>SortingAndPaginationHelper</Title>
+    <Company>Tekulse</Company>
+    <Description>SortingAndPaginationHelper is a lightweight and efficient .NET library designed to simplify sorting, searching, and pagination for Entity Framework Core (EF Core) queries. This library provides a reusable helper function that dynamically applies sorting, searching, and pagination based on request parameters, making it easy to implement optimized API responses.</Description>
+    <PackageTags>pagination, sorting, filtering, search, entity-framework, ef-core, dotnet, csharp, helper, queryable, linq, data, pagination-helper, sorting-helper, search-helper, aspnet-core, nuget-package</PackageTags>
+    <RepositoryUrl>https://github.com/Abdul-RehmanMalik/SortingAndPaginationHelper.git</RepositoryUrl>
+    <PackageReadmeFile>SortingAndPaginationHelper.md</PackageReadmeFile>
+    <Authors>Abdul-RehmanMalik</Authors>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\SortingAndPaginationHelper.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
