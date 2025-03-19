@@ -103,3 +103,11 @@ This project is licensed under the MIT License.
 
 ## ⭐ Support the Project
 If you find this useful, give it a ⭐ star on GitHub!
+
+## 📬 Contact
+
+📧 Author's Email: abdulrehmanmalikofficial2@gmail.com
+
+🌐 Company Website: [Tekulse](https://tekulse.com)
+
+📧 Support Email: contact@tekulse.com
