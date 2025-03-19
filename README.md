@@ -79,10 +79,13 @@ public async Task<IActionResult> GetUsers([FromQuery] ListingParamsViewModel lis
 }
 ```
 ## 🏆 Why Use PaginationHelper?
-✅ **Reduces Boilerplate Code –** Eliminates redundant pagination & sorting logic.
-✅ **Performance Optimization –** Paginates large datasets efficiently using EF Core.
-✅ **Highly Maintainable –** Centralizes sorting, filtering, and pagination logic.
-✅ **Easy to Integrate –** Minimal setup required in new or existing projects.
+✅ **Reduces Boilerplate Code** - Eliminates redundant pagination & sorting logic.
+
+✅ **Performance Optimization** - Paginates large datasets efficiently using EF Core.
+
+✅ **Highly Maintainable** - Centralizes sorting, filtering, and pagination logic.
+
+✅ **Easy to Integrate** - Minimal setup required in new or existing projects.
 
 ## 👥 Contributing  
 Contributions are welcome! Feel free to submit pull requests or report issues.  
